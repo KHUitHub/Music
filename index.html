@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Bad+Script&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@300&display=swap" rel="stylesheet">
+    <style>
+    *, *::after, *::before {
+      box-sizing: border-box;
+    }
+      body {
+        position: absolute;
+        display: block;
+        width: 100%;
+        margin: 0;
+        background-color: transparent;
+        color: #403022;
+        height: 100%;
+        font-family: 'Bad Script', 'Noto Serif KR', serif;
+      }
+      .inner {
+        max-width: 1280px;
+        padding: 0 40px;
+        margin: 0 auto;
+        position: relative;
+        height: 100%;
+      }
+      .container {
+        position: relative;
+        height: 1500px;
+        background-color: #F2E2CE;
+      }
+      .nav-link {
+
+      }
+      #header {
+        display: block;
+        position: fixed;
+        width: 100%;
+        height: 112px;
+        top: 0;
+        left: 0;
+        right: 0;
+        background-color: white;
+        z-index: 1;
+      }
+      #header-img {
+        position: absolute;
+        left: 40px;
+        width: auto;
+        height: 0px;
+      }
+      #nav-bar {
+        position: absolute;
+        right: 40px;
+      }
+      #first-page {
+        position: relative;
+        width: 100%;
+        height: 100vh;
+        background-color: white;
+      }
+      #entry-p {
+        position: fixed;
+        top: 450px;
+        margin:0 auto;
+        z-index: 0;
+        text-align: left;
+      }
+      #entry-slogan {
+        font-size: 36px;
+      }
+      #entry-intro {
+        font-size: 26px;
+      }
+      #hero {
+        position: relative;
+        height: 200px;
+      }
+      #header .inner {
+        padding: 30px 40px 40px 0;
+      }
+      nav {
+        margin: auto;
+      }
+      nav > ul {
+        list-style: none;
+      }
+      nav > ul > h3 > li {
+        float: left;
+        margin-left: 50px;
+      }
+      #email h2 {
+        margin-top: 0px;
+      }
+      main {
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <header id="header">
+      <div class="inner">
+          <div id="header-img">
+            <img src="HJmusicSimple_brown_403022.png">
+          </div>
+          <nav id="nav-bar">
+            <ul>
+              <h3>
+                <li><a class="nav-link" href="">aaaaaa</a></li>
+                <li><a class="nav-link" href="">bbbbbb</a></li>
+                <li><a class="nav-link" href="">cccccc</a></li>
+              </h3>
+            </ul>
+          </nav>
+      </div>
+    </header>
+    <main class="main-wrapper">
+      <section id="first-page">
+        <div class="inner">
+          <div id="entry-p">
+            <h2 id=entry-slogan>Welcome to HJ Music Class</h2>
+            <h3 id="entry-intro">소개 글~~~</h3>
+          </div>
+        </div>
+      </section>
+      <div class="container">
+        <section id="hero">
+          <div class="inner">
+            <form id="email">
+              <h2>Enter your E-mail here and get more information!</h2>
+              <input type="email" placeholder="Enter your email address">
+              <input id="submit" type="submit" value="get started">
+            </form>
+          </div>
+        </section>
+        <section id="video">
+          <div class="inner">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/5gfIDSreaV0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+        </section>
+        <section id="form">
+          <div class="inner">
+            <form>
+
+            </form>
+          </div>
+        </section>
+      </div>
+    </main>
+    <footer></footer>
+  </body>
+</html>
