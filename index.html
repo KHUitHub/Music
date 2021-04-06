@@ -4,9 +4,9 @@
     <meta charset="utf-8">
     <title></title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Bad+Script&display=swap" rel="stylesheet">
-<link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bad+Script&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@300&display=swap" rel="stylesheet">
     <style>
       *, *::after, *::before {
         box-sizing: border-box;
@@ -39,6 +39,12 @@
       }
       .nav-link {
 
+      }
+      .footer-contents {
+        position: relative;
+        top: 50%;
+        text-align: center;
+        font-size: 14px;
       }
       #header {
         display: block;
@@ -93,6 +99,14 @@
       }
       #header .inner {
         padding: 30px 40px 40px 0;
+      }
+      #footer {
+        position: sticky;
+        width: 100%;
+        padding: 20px 0;
+        font-family: 'Bad Script', 'Noto Serif KR', serif;
+        color: white;
+        background-color: black;
       }
       section {
         margin: 150px 0;
@@ -176,6 +190,12 @@
         </section>
       </div>
     </main>
-    <footer></footer>
+    <footer id="footer">
+      <div class="inner">
+        <div class="footer-contents">
+          © HJ Music Corporation
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
